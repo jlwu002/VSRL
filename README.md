@@ -1,1 +1,1 @@
-# psrl
+# Verified Safe Reinforcement Learning for Neural Network Dynamic Models

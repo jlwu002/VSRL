@@ -58,7 +58,7 @@ class QuadrotorSafeMovingEnv(gym.Env):
         self.reward_all = 0
 
         self.dynamics_model = DynamicsModel()
-        self.dynamics_model.load_state_dict(torch.load(f'{os.path.dirname(os.path.abspath(__file__))}/quadroator2d_regular_NN_moving.pth'))
+        self.dynamics_model.load_state_dict(torch.load(f'{os.path.dirname(os.path.abspath(__file__))}/quad2d_dynamics.pth'))
 
 
     def seed(self, seed=None):
